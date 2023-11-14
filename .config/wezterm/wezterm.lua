@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Batman'
+config.color_scheme = 'Catppuccin Mocha'
 
 config.window_decorations = 'RESIZE'
 config.enable_tab_bar = false
