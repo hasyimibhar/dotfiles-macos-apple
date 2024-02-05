@@ -42,9 +42,12 @@ Based on https://drewdevault.com/2019/12/30/dotfiles.html
    yabai --start-service
    ```
 
-8. Install `neovim`:
+8. Setup `neovim`:
    ```sh
    brew install neovim ripgrep
+   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+   nvim +PlugInstall
    ```
 
 9. Install [Logseq](https://logseq.com/downloads) and [Google Drive Desktop](https://www.google.com/drive/download/).
