@@ -18,7 +18,8 @@ config.color_scheme = 'Catppuccin Mocha'
 config.window_decorations = 'RESIZE'
 config.enable_tab_bar = false
 
-config.font_size = 14.0
+config.font = wezterm.font 'JetBrains Mono'
+config.font_size = 16.0
 
 -- and finally, return the configuration to wezterm
 return config
